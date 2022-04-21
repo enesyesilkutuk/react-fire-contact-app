@@ -1,5 +1,5 @@
 // Database bilgi ekleme,bilgiyi alma, bilgi silme ve değiştirme
-import firebase from "./firebase"
+import { firebase } from "./firebase"
 import {useState,useEffect} from "react";
 import { getDatabase,ref,set,push,onValue, remove,update} from "firebase/database";
 import Toastify from "./toast";
